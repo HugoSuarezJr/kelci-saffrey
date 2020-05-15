@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+      <!-- Required meta tags --> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!--Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    <link rel="stylesheet" href="style.css" />
+    <link rel="NavBar" href="NavBar.css" />
+    
+    <title>Hackathon</title>
+  </head>
+  <body>
     <h1>Kelci Saffry Portfolio</h1>
 
     <section id="intro-nav">
-        Nav Bar and Face here
+      <nav class="navbar navbar-light bg-light">
+        <ul class="nav justify-content-end">
+          <li class="navbar-nav">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      Nav Bar and Face here
     </section>
+    <!-- WORK SECTION -->
     <section id="works">
-        
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1545462616-efed1939219f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries.
+                </p>
+            </div>
+        </div>
     </section>
-    
-    <section id="contact">
 
-    </section>
-    <footer id="skinny-foot">stuff</footer>
-
+    <section id="contact"></section>
+    <footer id="skinny-foot"></footer>
     <script src="./index.js"></script>
-</body>
+   
+    <!-- Bootstrp JS  -->
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
